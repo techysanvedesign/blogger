@@ -1,0 +1,47 @@
+/*<![CDATA[*/
+    .intro {
+        margin: .5em 0;
+    }
+ 
+    .jsDelivr,
+    .ex,
+    .main {
+        margin: 1em 0;
+    }
+ 
+    .jsDelivr>img {
+        margin: 0 0 10px;
+    }
+ 
+    .git .head {
+        display: flex;
+        align-items: center;
+        margin: 0 0 .5em;
+    }
+ 
+    .git .head span {
+        font-size: 1.3em;
+        font-weight: 500;
+        display: inline-block;
+        margin: 0 0 0 6px;
+    }
+ 
+    .ex ul li {
+        word-break: break-all;
+    }
+ 
+    .gitlink.invalid {
+        border-color: #ffaf86;
+        box-shadow: 0 0 0 0.2rem rgba(234, 121, 55, 0.25);
+    }
+ 
+    .footer {
+        padding: 1em 0;
+        border-top: 1px solid #eaeaea;
+    }
+ 
+    .embed-label {
+        display: inline-block;
+        margin: 10px 0;
+    }
+/*]]>*/
