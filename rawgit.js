@@ -1,4 +1,4 @@
-<script type="text/javascript">
+/*<![CDATA[*/
     const giturl = /^https?:\/\/github\.com\/(.+?)\/(.+?)\/(?!releases\/)(?:(?:blob|raw|blame)\/)?(.+?)\/(.+)/i,
         rawgit = /^https?:\/\/raw\.github(?:usercontent)?\.com\/(.+?)\/(.+?)\/(.+?)\/(.+)/i;
     (function(doc) {
@@ -88,4 +88,4 @@
         })
         doc.getElementById("g").addEventListener("input", a)
     })(document);
-</script>
+/*]]>*/
